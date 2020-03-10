@@ -1,0 +1,25 @@
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+    text-align: center;    
+}
+
+.pagination{
+    display: inline-block;
+}
+
+.pagination a, .pagination span{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.current_page{
+    font-weight: bold;    
+}
