@@ -14,7 +14,7 @@ A funcao createFooter que se encontra no seguinte destino: controller/FooterCont
 1. Verifica se as variaveis passadas como parametros nao sao nulas.
 2. Calcula os valores passados de quantas paginas gostariam de linkar a partir da primeira pagina e quantas antes da ultima pagina
 3. Calcula quantas paginas serao linkadas antes e depois da atual
-4. Loop a patir do total de paginas
+4. Loop a patir da pagina 1 ate o total de paginas
     * O primeiro e o ultimo valor sempre entram, assim como os valores ate o limite inicial passado, logo sao adicionado ao array de resposta
     * Testa se a iteracao esta entre o limite final e se eh menor que o valor total de paginas, caso positivo, sera adicionado ao array de resposta
     * Testa se a iteracao esta entre o valor definido para estar antes ou depois da pagina atual, caso positivo, sera adicionado ao array de resposta
