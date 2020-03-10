@@ -1,10 +1,10 @@
 Codigo desenvolvido em PHP 7.2
 
 Valores que deverao ser passados como parametro na URL para teste da funcao:
-current
-total
-boundaries
-around
+* current
+* total
+* boundaries
+* around
 
 Exemplo de URL: http://localhost:8000/index.php?current=4&total=10&boundaries=2&around=2
 
